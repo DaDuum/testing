@@ -21,7 +21,8 @@ namespace AutomationUITestingProject
         [Test (Description ="First Test")]
         public void FirstTest() {
             
-            driver.Url = "https://www.google.com";           
+            driver.Url = "https://www.google.com";      
+            
         }
 
         [Test (Description ="Second Test")]
